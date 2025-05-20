@@ -9,7 +9,7 @@ if (isset($_GET['update_id'])) {
     $row = mysqli_fetch_assoc($result);
 }
  else {
-    // अगर update_id नहीं है तो redirect या error दिखाओ
+  
     echo "Invalid ID";
     exit();
 }
